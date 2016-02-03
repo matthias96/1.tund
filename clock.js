@@ -2,6 +2,11 @@
 window.onload= function(){
   var clock= document.getElementById('clock');
   writeDate();
+  window.setInterval(function(){
+    writeDate();
+  }, 500);
+
+
 
 };
 
